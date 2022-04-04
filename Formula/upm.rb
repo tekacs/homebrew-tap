@@ -3,7 +3,6 @@ class Upm < Formula
   desc "Universal package manager: Python, Node.js, Ruby, Emacs Lisp."
   homepage "https://github.com/replit/upm"
   version "1.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/replit/upm/releases/download/v1.0/upm_1.0_darwin_amd64.tar.gz"
